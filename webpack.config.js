@@ -8,8 +8,7 @@ module.exports = {
   entry: './assets/scripts/App.js',
   output: {
     filename: 'bundled.js',
-    path: path.resolve(__dirname, 'app'),
-    publicPath: '/'
+    path: path.join(__dirname, 'app/templates'),
   },
   devServer: {
     before: function(app, server){
