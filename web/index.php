@@ -4,7 +4,7 @@
  */
 
 // Set path constants
-define('CRAFT_BASE_PATH', dirname(__DIR__,2) . '/httpdocs/app');
+define('CRAFT_BASE_PATH', dirname(__DIR__,1) . '/app');
 define('CRAFT_VENDOR_PATH', CRAFT_BASE_PATH.'/vendor');
 
 // Load Composer's autoloader
